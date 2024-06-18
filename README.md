@@ -1,22 +1,38 @@
-<!DOCTYPE html>
+< ! DOCTYPE html>
+
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Estilizando uma página HTML</title>
-  	<style> 
-	#text-container{
-		color:red;
-		font-size:18px;
-	}
-	</style>
+<style>
+#container{
+    background: #ccc;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10;
+}
+.texto-destaque{
+    font-weigth:bold;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    display: inline;
+}
+</style>
 </head>
+
 <body>
-<div class="container">
-	<p id="text-container">
-	Testando os conhecimentos de CSS em HTML.
-	Esta é minha primeira página.
-	</p>
-</div>
+  <div id="container">
+	 <h1> Titulo principal </h1>
+	 <p class="texto-destaque"> Texto ao qual o titulo se refere </p>
+	 
+	 <ul>
+	  <li>Item 1</li>
+	  <li>Item 2</li>
+	  <li>Item 3</li>
+	  <li>Item 4</li>
+	  <li>Item 5</li>
+     </ul>	
+  </div>
+
 </body>
 </html>
