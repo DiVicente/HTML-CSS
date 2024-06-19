@@ -1,38 +1,35 @@
-< ! DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-#container{
-    background: #ccc;
-    width: 960px;
-    margin: 0 auto;
-    padding: 10;
-}
-.texto-destaque{
-    font-weigth:bold;
-}
-ul li{
-    list-style: none;
-    margin-bottom: 5px;
-    display: inline;
-}
-</style>
+    <meta charset="UTF-8">
+    <style>
+        #container {
+            background: #ccc;
+            width: 960px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .texto-destaque {
+            font-weight: bold;
+        }
+        ul li {
+            list-style: none;
+            margin-bottom: 5px;
+            display: inline;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="container">
-	 <h1> Titulo principal </h1>
-	 <p class="texto-destaque"> Texto ao qual o titulo se refere </p>
-	 
-	 <ul>
-	  <li>Item 1</li>
-	  <li>Item 2</li>
-	  <li>Item 3</li>
-	  <li>Item 4</li>
-	  <li>Item 5</li>
-     </ul>	
-  </div>
-
+    <div id="container">
+        <h1>Titulo principal</h1>
+        <p class="texto-destaque">Texto ao qual o titulo se refere</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </div>
 </body>
 </html>
